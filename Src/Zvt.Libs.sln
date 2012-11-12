@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zvt.Libs.Configuration", "Configurations\Zvt.Libs.Configuration\Zvt.Libs.Configuration.csproj", "{222E384F-EA6F-459B-9018-88D9784BB662}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{38FE7457-81A1-43C7-9A56-2F7C9C4421A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{DC16E96F-3EAF-4251-A401-01FC9919092D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zvt.Libs.Database", "Database\Zvt.Libs.Database\Zvt.Libs.Database.csproj", "{0B84253D-5C2E-454A-8C5D-ED0AB4C06CFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. Solution Items", "0. Solution Items", "{CCC0341F-7FB0-477F-AB21-7221F35CBBD9}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+		Zvt.Libs.vsmdi = Zvt.Libs.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zvt.Libs.Database.Tests", "Database\Zvt.Libs.Database.Tests\Zvt.Libs.Database.Tests.csproj", "{E0AFE2B0-6B45-4575-B579-828A808C265A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zvt.Libs.Database.DataLoader", "Database\Zvt.Libs.Database.DataLoader\Zvt.Libs.Database.DataLoader.csproj", "{81273F77-D731-4B00-AFD0-F8E073381EFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zvt.Libs.Database.DataLoader.Tests", "Database\Zvt.Libs.Database.DataLoader.Tests\Zvt.Libs.Database.DataLoader.Tests.csproj", "{6D8F135B-1CF1-43B3-8A19-FF8A1331145C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7E824661-9C40-4B5A-B164-A72AABF3F372}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zvt.Libs.MSTestExtensions", "Tests\Zvt.Libs.MSTestExtensions\Zvt.Libs.MSTestExtensions.csproj", "{ADC9B866-5A40-439B-BBE3-A3136F64C615}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Zvt.Libs.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{222E384F-EA6F-459B-9018-88D9784BB662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{222E384F-EA6F-459B-9018-88D9784BB662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{222E384F-EA6F-459B-9018-88D9784BB662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{222E384F-EA6F-459B-9018-88D9784BB662}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B84253D-5C2E-454A-8C5D-ED0AB4C06CFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B84253D-5C2E-454A-8C5D-ED0AB4C06CFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B84253D-5C2E-454A-8C5D-ED0AB4C06CFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B84253D-5C2E-454A-8C5D-ED0AB4C06CFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0AFE2B0-6B45-4575-B579-828A808C265A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0AFE2B0-6B45-4575-B579-828A808C265A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0AFE2B0-6B45-4575-B579-828A808C265A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0AFE2B0-6B45-4575-B579-828A808C265A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81273F77-D731-4B00-AFD0-F8E073381EFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81273F77-D731-4B00-AFD0-F8E073381EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81273F77-D731-4B00-AFD0-F8E073381EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81273F77-D731-4B00-AFD0-F8E073381EFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D8F135B-1CF1-43B3-8A19-FF8A1331145C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D8F135B-1CF1-43B3-8A19-FF8A1331145C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D8F135B-1CF1-43B3-8A19-FF8A1331145C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D8F135B-1CF1-43B3-8A19-FF8A1331145C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADC9B866-5A40-439B-BBE3-A3136F64C615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADC9B866-5A40-439B-BBE3-A3136F64C615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADC9B866-5A40-439B-BBE3-A3136F64C615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADC9B866-5A40-439B-BBE3-A3136F64C615}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{222E384F-EA6F-459B-9018-88D9784BB662} = {38FE7457-81A1-43C7-9A56-2F7C9C4421A1}
+		{0B84253D-5C2E-454A-8C5D-ED0AB4C06CFE} = {DC16E96F-3EAF-4251-A401-01FC9919092D}
+		{E0AFE2B0-6B45-4575-B579-828A808C265A} = {DC16E96F-3EAF-4251-A401-01FC9919092D}
+		{81273F77-D731-4B00-AFD0-F8E073381EFE} = {DC16E96F-3EAF-4251-A401-01FC9919092D}
+		{6D8F135B-1CF1-43B3-8A19-FF8A1331145C} = {DC16E96F-3EAF-4251-A401-01FC9919092D}
+		{ADC9B866-5A40-439B-BBE3-A3136F64C615} = {7E824661-9C40-4B5A-B164-A72AABF3F372}
+	EndGlobalSection
+EndGlobal
