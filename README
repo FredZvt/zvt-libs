@@ -1,9 +1,5 @@
 My personal common use libraries:
 
-- Zvt.Libs.Configurations: Classes that helps me handle configuration files.
+- Zvt.Libs.Configuration: Classes that helps me handle configuration files.
 
-- Zvt.Libs.MSTestExtensions: Classes that helps me write tests with MSTest.
-
-- Zvt.Libs.Database: Classes that halps me with database connections and query executions. Also some very useful predefined queries.
-
-- Zvt.Libs.Database.DataLoader: A little engine to allow ETL. Primarily elaborated to allow read from a very simple XML format and write to SqlServer but architected to allow expansions.
+- Zvt.Libs.Database: Classes that helps me with database connections and query executions. Also some very useful predefined queries.
